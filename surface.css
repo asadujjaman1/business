@@ -3,53 +3,37 @@
     padding: 0%;
 }
 body{
-    background: #e5c2c2;
+    background: rgb(160, 132, 136);
 }
 header{
-    background: #000;
-    height: 40px;
-    width: auto;
+    background: lightblue;
+    margin: auto;
 }
-nav{
-    padding: 10px;
-    margin-left: 3%;
-    
+h1{
+    padding-left: 1%;
+    padding-top: 2%;
 }
-nav h1{
-    float: left;
-    font-weight: bold;
-}
-nav h1 a{
-    text-decoration: none;
-    color: whitesmoke;
-
-}
-nav h1 a:hover{
-    color: #0eed19;
-}
-nav ul li{
+h1 a{
     display: inline-block;
-    margin-left: 3%;
-    margin-top: %;
-    font-size: 20px;
-    font-weight: bold;   
-}
-nav ul li a{
+    text-align: left;
     text-decoration: none;
-    color: whitesmoke;
-   
 }
-nav ul li a:hover{
-    
-    color: hsla(139, 92%, 45%, 0.861);
+ul{
+    font-size: 20px;
+    text-align: right;
+    padding-right: 1%;
 }
-.head{
-    margin-left: 5%;
-    margin-top: 5%;
+ul li{
+    display: inline-block;
+    padding: 1%;
 }
-table{
-    margin-top: 2%;
-    margin-left: 5%;
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+    padding: 5%;
 }
 .title{
     margin-top: 2%;
