@@ -42,3 +42,10 @@ div{
     font-style: italic;
     font-weight: bold;
 }
+marquee{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
